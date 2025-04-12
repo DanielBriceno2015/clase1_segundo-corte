@@ -40,26 +40,87 @@ Movimiento Armónico Amortiguado es proporcional a la velocidad V en la mayoría
 
 Figura 2. Amortiguador
 
-## 4. Ejemplo 💡
 
-
- ## 5. Ejercicios 
+ ## 4. Ejercicios 
  
  📚 Hallar la funcion de transferencia 
 
 ![Logo]( https://dademuchconnection.wordpress.com/wp-content/uploads/2017/07/null185.png)
 
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
-
 Figura 3. sistema masa resorte amortiguador amortiguador
- 
 
- 📚 
+Masa 
+𝑚
+m
+
+Resorte con constante de rigidez 
+𝑘
+k
+
+Amortiguador con coeficiente de fricción viscosa 
+𝑐
+c
+
+Una fuerza externa 
+𝐹
+(
+𝑡
+)
+F(t)
+
+Desplazamiento de la masa 
+𝑥
+(
+𝑡
+)
+x(t)
+
+### Ley de newton
+
+∑F=m 
+x
+¨
+ (t)
+
+### Diagrama cuerpo libre
+
+                  ←  -k·x(t)   (resorte)
+                  ←  -c·ẋ(t)   (amortiguador)
+          ┌──────────────────┐
+          │                  │
+          │        m         │  →  F(t)
+          │                  │
+          └──────────────────┘
+
+
+
+F resorte = -k·x(t)   (resorte)
+
+F amortiguador =  -c·ẋ(t)   (amortiguador) 
+
+Fuerza externa = F(t)
+
+ ### Se suman todas las fuerzas
+
+F(t)-c·ẋ(t)-k·x(t) = m ·ẋ
+
+
+ ### Respuesta
+
+m ·ẋ -c·ẋ(t)-k·x(t) = F(t)
+
+
  ## 6. Conclusion
 
+El modelamiento de sistemas mecánicos mediante ecuaciones diferenciales es una herramienta fundamental en ingeniería y física para describir con precisión el comportamiento dinámico de estructuras y mecanismos. Al analizar fuerzas como la masa, el amortiguamiento y la rigidez, se obtienen ecuaciones que reflejan la relación entre entradas (como fuerzas aplicadas) y salidas (como desplazamientos o velocidades).
+
+Este enfoque permite no solo comprender el funcionamiento del sistema, sino también predecir su respuesta ante diferentes condiciones, optimizar su diseño y desarrollar estrategias de control. La formulación matemática mediante ecuaciones diferenciales es, por tanto, una base esencial para la simulación, análisis y diseño de sistemas mecánicos complejos.
+
+
+ ## 7. Referencias
+
 
  
- ## 7. Referencias
 
 
  
