@@ -3,7 +3,7 @@
 
 ## 1. Introduccion
 
-Introduccion a sistemas dinamicos, por medio de definiciones de los conceptos.
+Introduccion a modelamiento de sistemas
 
 
 ## 2. Definiciones
@@ -21,9 +21,18 @@ Introduccion a sistemas dinamicos, por medio de definiciones de los conceptos.
 🔑 **resorte** Un componente mecánico que almacena y libera energía. También se le conoce como muelle.
 
 
-## **💡ejemplos**
+## 3. Sistemas mecanicos
+
+### 3.1 Resortes
 
 
-## conclusiones
 
-El estudio de sistemas dinámicos y el uso de la Transformada de Laplace son esenciales para modelar y analizar sistemas en ingeniería. Permiten comprender su comportamiento y diseñar estrategias de control eficientes. 
+
+![Logo](https://lh5.googleusercontent.com/proxy/impYKDTqatvEToDIQx9os0glPam37GF50lYM1l1fOykqj15JV2KjBg8tqq3Z4A4UJv1Exfw1R0az)
+
+Figura 1. Ley de hooke
+
+
+### 3.2 Amortiguadores
+
+
